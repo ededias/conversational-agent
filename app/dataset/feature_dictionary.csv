@@ -1,0 +1,141 @@
+Feature,Type,Sample,Missing Values,Unique Values,Description
+position,int64,1,0,20,Position of the car in the list
+loc,object,Gomti Nagar,5851,511,Location of the car
+myear,int64,2016,0,34,Manufacturing year of the car
+bt,object,Hatchback,19,11,Body type of the car
+tt,object,Manual,0,2,Transmission type of the car
+ft,object,CNG,0,5,Fuel type of the car
+km,object,"69,162",0,23863,Kilometers driven by the car
+ip,int64,0,0,2,Insurance premium of the car
+pi,object,https://images10.gaadi.com/usedcar_image/original/usedcar_0_734841676968137_1676968151.jpeg?imwidth=640,680,37134,Primary image of the car
+images,object,[{'img': 'https://images10.gaadi.com/usedcar_image/original/usedcar_0_734841676968137_1676968151.jpeg?imwidth=640'}],0,37135,Number of images of the car
+imgCount,int64,15,0,54,Count of images of the car
+threesixty,bool,False,0,2,Whether 360 degree view of car is available or not
+dvn,object,Maruti Wagon R LXI CNG,0,4159,Dealer verification status of the car
+oem,object,Maruti,0,46,Original equipment manufacturer of the car
+model,object,Maruti Wagon R,0,382,Model of the car
+modelId,int64,627,0,682,Unique ID of the car model
+vid,object,Maruti Wagon R LXI CNG,0,4159,Unique ID of the car variant
+centralVariantId,int64,4312,0,4585,Central variant ID of the car
+variantName,object,LXI CNG,0,3488,Name of the car variant
+city_x,object,Lucknow,0,617,City of the car
+vlink,object,/buy-used-car-details/used-Maruti-Wagon-R-Lxi-Cng-cars-Lucknow_7111bf25-97af-47f9-867b-40879190d800.htm,0,37814,Link to the car's details page
+price,object,₹ 3.70 Lakh,0,2374,Selling price of the car
+pu,object,"3,70,000",0,6865,Price of car at the time of purchase
+discountValue,int64,0,0,30,Discount offered on the car
+msp,int64,0,0,3,Maximum selling price of the car
+priceSaving,object,,37812,2,Price saving offered on the car
+pageNo,int64,2,0,162,Page number of the car in the website
+utype,object,Dealer,0,2,Type of the car seller
+views,int64,546,0,2143,Number of views on the car details page
+usedCarId,int64,3369178,0,37814,Unique ID of the used car
+usedCarSkuId,object,7111bf25-97af-47f9-867b-40879190d800,0,37814,Unique ID of the used car SKU
+ucid,int64,3622006,0,37811,Unique ID of the used car variant
+sid,object,911820426099DD71964BE8369DF166C9,0,37811,Unique ID of the seller
+tmGaadiStore,bool,False,0,2,No description available
+emiwidget,object,"{'title': 'EMI starts', 'cost': '9,184', 'duration': '/mo', 'caption': 'Interest calculated at 14.5% for 48 months', 'btntext': 'Check Your Loan', 'btnUrl': 'https://loan.cardekho.com/used-car?utm_source=cardekho&utm_medium=internal&utm_campaign=UsedCarsSRP_EMIstarts'}",0,6206,Indicates if EMI calculation widget was present in the listing page
+transmissionType,object,Manual,0,2,"Type of transmission system (Automatic, Manual, CVT, etc.)"
+dynx_itemid_x,int64,3369178,0,37814,ID of the item shown in a dynamic remarketing ad (item 1)
+dynx_itemid2_x,int64,4312,0,4585,ID of the item shown in a dynamic remarketing ad (item 2)
+dynx_totalvalue_x,int64,370000,0,6865,Total value of the items shown in a dynamic remarketing ad
+leadForm,int64,0,0,2,Indicates if lead form was present in the listing page
+leadFormCta,object,,5301,1,Call-to-action (CTA) text for the lead form
+offers,object,{},0,1,Indicates if special offers were present in the listing page
+compare,bool,True,0,1,Indicates if compare feature was present in the listing page
+brandingIcon,object,https://images10.gaadi.com/listing/icons/CertifiedV1.svg,37051,1,Icon/logo of the car brand shown in the listing page
+pageType,object,ucr,0,2,"Type of the listing page (new cars, used cars, certified cars, etc.)"
+carType,object,corporate,0,3,"Type of the car (hatchback, sedan, SUV, etc.)"
+corporateId,int64,13,0,6,ID of the corporate seller (if any)
+top_features,object,"['Power Steering', 'Power Windows Front', 'Air Conditioner', 'Heater', 'Adjustable Head Lights', 'Manually Adjustable Exterior Rear View Mirror', 'Centeral Locking', 'Child Safety Locks', 'Number Of Speaker']",0,400,"List of top features of the car (e.g. ABS, airbags, touchscreen, etc.)"
+comfort_features,object,"['Power Steering', 'Power Windows Front', 'Remote Trunk Opener', 'Remote Fuel Lid Opener', 'Low Fuel Warning Light', 'Accessory Power Outlet', 'Rear Seat Headrest', 'Cup Holders Front']",0,2016,"List of comfort features of the car (e.g. air conditioning, power steering, etc.)"
+interior_features,object,"['Air Conditioner', 'Heater', 'Digital Odometer', 'Electronic Multi Tripmeter', 'Fabric Upholstery', 'Glove Compartment', 'Dual Tone Dashboard']",0,527,"List of interior features of the car (e.g. leather seats, sunroof, etc.)"
+exterior_features,object,"['Adjustable Head Lights', 'Manually Adjustable Exterior Rear View Mirror', 'Power Antenna', 'Chrome Grille', 'Chrome Garnish', 'Roof Rail']",0,1893,"List of exterior features of the car (e.g. alloy wheels, fog lamps, etc.)"
+safety_features,object,"['Centeral Locking', 'Child Safety Locks', 'Day Night Rear View Mirror', 'Passenger Side Rear View Mirror', 'Halogen Headlamps', 'Rear Seat Belts', 'Seat Belt Warning', 'Side Impact Beams', 'Front Impact Beams', 'Adjustable Seats', 'Centrally Mounted Fuel Tank', 'Engine Immobilizer', 'Engine Check Warning', 'Anti Theft Device']",0,2116,"List of safety features of the car (e.g. ABS, airbags, EBD, etc.)"
+Color,object,Silver,160,798,Color of the car
+Engine Type,object,K10B Engine,868,658,Type of engine (very specific)
+Displacement,float64,998.0,53,187,Engine displacement in cc
+Max Power,object,58.16bhp@6200rpm,231,1018,Maximum power output of the engine in bhp
+Max Torque,object,77Nm@3500rpm,231,844,Maximum torque output of the engine in Nm
+No of Cylinder,float64,3.0,143,11,Number of cylinders in the engine
+Values per Cylinder,float64,4.0,228,7,Number of valves per cylinder in the engine
+Value Configuration,object,DOHC,7831,13,"Configuration of the valves in the engine (SOHC, DOHC, etc.)"
+BoreX Stroke,object,69 x 72 mm,25177,224,Bore and stroke dimensions of the engine
+Turbo Charger,object,No,2176,9,Indicates if the engine has a turbocharger
+Super Charger,object,No,5348,5,Indicates if the engine has a supercharger
+Length,object,3599mm,362,516,Length of the car in mm
+Width,object,1495mm,371,394,Width of the car in mm
+Height,object,1700mm,363,423,Height of the car in mm
+Wheel Base,object,2400mm,555,328,Wheel base of the car in mm
+Front Tread,object,1295mm,15875,219,Front tread of the car in mm
+Rear Tread,object,1290mm,15876,238,Rear tread of the car in mm
+Kerb Weight,object,960kg,13139,831,Kerb weight of the car in kg
+Gross Weight,object,1350kg,20890,436,Gross weight of the car in kg
+Gear Box,object,5 Speed,407,132,"Gear box type of the car (4 speed, 5 speed, etc.)"
+Drive Type,object,FWD,4496,24,"Rear wheel drive (RWD), front wheel drive (FWD), etc."
+Seating Capacity,float64,5.0,18,11,How many people can sit in the car
+Steering Type,object,Power,808,11,"The type of steering (power steering, manual steering, etc.)"
+Turning Radius,object,4.6 metres,5848,239,Turning radius of the car in meters
+Front Brake Type,object,Ventilated Disc,327,43,"Front brake type of the car (disc, drum, etc.)"
+Rear Brake Type,object,Drum,326,48,"Rear brake type of the car (disc, drum, etc.)"
+Top Speed,object,137 kmph,15036,372,Top speed of the car in kmph
+Acceleration,object,15.9 Seconds,13988,414,0-100 kmph acceleration time of the car in seconds
+Tyre Type,object,Tubeless Tyres,257,37,"Tyre type of the car (tubeless, tube, etc.)"
+No Door Numbers,float64,5.0,44,5,Number of doors in the car
+Cargo Volumn,object,180-liters,6732,398,Amount of cargo space in the car in liters
+model_type_new,object,used,0,1,Whether the car is a new car or a used car
+originalLocation,float64,,37814,0,--
+page_title,object,"Used Maruti Wagon R LXI CNG Car in Lucknow, 2016 Model (Id- 7111bf25-97af-47f9-867b-40879190d800) - Find Best Deals! | CarDekho.com",0,37814,Title of the listing page
+compare_car_details,float64,,37814,0,--
+seller_type_new,object,dealer,0,2,"Seller type of the car (individual, dealer, etc.)"
+seating_capacity_new,float64,5.0,29,10,Number of people who can sit in the car
+transmission_type,object,manual,0,2,"Type of transmission system (Automatic, Manual, CVT, etc.)"
+model_year_new,int64,2016,0,34,Year in which the car was launched
+car_type_new,object,used,0,1,New or used car
+model_name,object,maruti wagon r,0,382,Name of the car model
+model_id_new,int64,344,0,382,Unique ID of the car model
+oem_name,object,maruti,0,46,Original equipment manufacturer (OEM) name of the car
+price_range_segment,object,2lakh-5lakh,0,5,"Range of the car price (e.g. 1-5 lakhs, 5-10 lakhs, etc.)"
+dealer_id_new,int64,0,0,1,Dealer ID of the car seller
+state,object,uttar pradesh,0,33,State in which the car is located
+city_id_new,int64,320,0,617,ID of the city in which the car is located
+fuel_type,object,cng,0,5,"Type of fuel used by the car (Petrol, Diesel, CNG, etc.)"
+max_engine_capacity_new,float64,998.0,53,187,Engine displacement in cc
+transmission_type_new,object,manual,0,2,"Transmission type of the car (Automatic, Manual, CVT, etc.)"
+km_driven,int64,69162,0,23862,Number of kilometers the car has been driven
+model_new,object,Maruti Wagon R,0,382,Model of the car
+vehicle_type_new,object,car,0,1,"Vehicle type (car, vam, etc.)"
+brand_name,object,maruti,0,46,Name of the OEM brand of the car
+engine_cc,object,500cc-1000cc,161,6,"Range of the engine displacement in cc (e.g. 1000-1500 cc, 1500-2000 cc, etc.)"
+fuel_type_new,object,cng,0,5,"Fuel type of the car (Petrol, Diesel, CNG, etc.)"
+car_segment,object,Hatchback,19,11,"Body type of the car (hatchback, sedan, SUV, etc.)"
+used_carid,int64,3369178,0,37814,Unique ID of the used car
+city_name_new,object,lucknow,0,617,City in which the car is located
+page_type,object,used-car.detail,0,1,used_car.detail
+city_y,object,lucknow,0,617,City in which the car is located
+engine_capacity_new,object,500cc-1000cc,161,6,"Engine displacement range in cc (e.g. 1000-1500 cc, 1500-2000 cc, etc.)"
+body_type_new,object,Hatchback cars,0,12,"Body type of the car (hatchback, sedan, SUV, etc.)"
+owner_type_new,object,first,0,6,"Owner type of the car (first, second, etc.)"
+mileage_new,object,26.6 kmpl,901,627,Mileage of the car in kmpl
+dealer_id,int64,0,0,1,Dealer ID of the car seller
+model_year,int64,2016,0,34,Year in which the car was launched
+variant_name,object,maruti wagon r lxi cng,0,4131,Name of the car variant
+price_segment,object,2lakh-5lakh,0,5,"Segment of the car price (e.g. 1-5 lakhs, 5-10 lakhs, etc.)"
+dynx_event,object,dynRmktParamsReady,0,1,--
+dynx_pagetype,object,offerdetail,0,1,--
+dynx_itemid_y,int64,3369178,0,37814,--
+dynx_itemid2_y,int64,4312,0,4585,--
+dynx_totalvalue_y,int64,370000,0,6867,--
+brand_new,object,maruti,0,46,Brand of the car
+variant_new,object,maruti wagon r lxi cng,0,4131,Variant of the car
+exterior_color,object,Silver,123,798,Exterior color of the car
+min_engine_capacity_new,float64,998.0,53,187,Minimum engine displacement in cc
+owner_type,object,first,0,6,"Owner type of the car (first, second, etc.)"
+price_segment_new,object,2lakh-5lakh,0,5,"Price segment of the car (e.g. 1-5 lakhs, 5-10 lakhs, etc.)"
+template_name_new,object,used cardetail v2/corporate/13,0,4,--
+page_template,object,Used Car > Detail Page,0,1,--
+template_Type_new,object,used,0,1,---
+experiment,object,control,0,1,control
+Fuel Suppy System,object,,5502,99,"Type of fuel supply system (Carburetor, Fuel Injection, etc.)"
+Compression Ratio,object,,27642,100,Compression ratio of the engine
+Alloy Wheel Size,object,,13146,18,Size of the alloy wheels in inches
+Ground Clearance Unladen,object,,35662,31,Ground clearance of the car when it is not loaded in mm

@@ -1,0 +1,4 @@
+Para executar o aplicativo é necessário antes de tudo gerar os arquivos pkl
+para gerar os arquivos pkl basta executar o arquivo train_intent_classifier.py
+
+Próximo passo é criar uma chave na API do facebook para podermos utilizar a API e receber os webhook e tambem alterar a URL para realizar do webhook no painel do facebook
