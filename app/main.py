@@ -18,6 +18,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
+    print('hello')
     return {"msg": "Bot da concessionária está online!"}
 
 @app.get("/webhook")
@@ -70,7 +71,8 @@ async def receber_mensagem(request: Request):
                 df = carregar_carros()
                 parametros = extrair_parametros(texto)
                 resultado = buscar_carros(parametros, df)
-
+                if not len(resultado):
+                    resposta = "Não encontrei nenhum carro com estas especificações ou valores"
                 for carro in resultado[["Model", "Price", "transmission", 'Fuel Type', 'Make']].to_dict(orient="records"):
                     resposta += (f"Marca: {carro['Make']}, Modelo: {carro['Model']}, Preço: {carro['Price']}, Transmissão: {carro['transmission']}, Combustivel: {carro['Fuel Type']} \n")
 
